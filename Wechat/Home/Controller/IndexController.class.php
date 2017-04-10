@@ -26,7 +26,7 @@ class IndexController extends Controller {
             exit;
         } else {
             $this->responseMsg();
-         // $this->createMenu();
+            //$this->createMenu();
 			//$this->delegateMenu();
         }
     }
@@ -156,6 +156,16 @@ class IndexController extends Controller {
     	$url = "https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=".$access_token;
     	$result = $this->https_request($url);
     	echo $result;
+    }
+
+
+    //获取到用户的信息
+    //1.用户关注以及回复消息的时候，均可以获得用户的OpenID FromUserName就是OpenID 
+    //2. 然后使用access_token接口，请求获得全局Access Token https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+    //3. 再使用全局ACCESS_TOKEN获取OpenID的详细信息 https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID
+
+    public function getUserInfo(){
+        
     }
 
     public function responseMsg(){
