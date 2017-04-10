@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+		"/>
+		<link rel="stylesheet" href="../../Public/css/weui.min.css"/>
+		<link rel="stylesheet" href="../../Public/css/jquery-weui.css"/>
+		<link rel="stylesheet" href="../../Public/css/educate.css"/>
+		
+		<script src="../../Public/js/jquery-2.1.4.js"></script> 
+		<script src="../../Public/js/fastclick.js"></script>
+		<script src="../../Public/js/jquery-weui.js"></script>
+		<title>女子学院</title>
+	</head>
+	<body>
+	
+
+	    <div class="weui-cells weui-cells_form">
+	      <div class="weui-cell">
+	        <div class="weui-cell__hd"><label for="date" class="weui-label">日期</label></div>
+	        <div class="weui-cell__bd">
+	          <input class="weui-input" id="date" type="text">
+	        </div>
+	      </div>
+	    </div>
+    	<div id="inline-calendar"></div>
+		
+		<!--底部导航-->
+		<div class="weui-tabbar wy-foot-menu">
+			<a href="../index.html" class="weui-tabbar__item">
+			   <div class="weui-tabbar__icon foot-menu-home"></div>
+			   <p class="weui-tabbar__label">今日</p>
+			</a>
+			<a href="educate.html" class="weui-tabbar__item weui-bar__item--on">
+			   <div class="weui-tabbar__icon foot-menu-list"></div>
+			   <p class="weui-tabbar__label">教务</p>
+			</a>
+			<a href="../my/my.html" class="weui-tabbar__item">
+			   <div class="weui-tabbar__icon foot-menu-cart"></div>
+			   <p class="weui-tabbar__label">我的</p>
+			</a>
+		</div>
+		
+		
+		
+		<script>
+	      $("#date").calendar({
+	      
+	        container: "#inline-calendar",
+	        onChange: function (p, values, displayValues) {
+          		console.log(values);
+        	}
+	      });
+	      
+	      
+    	</script>
+	</body>
+</html>

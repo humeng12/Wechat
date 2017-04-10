@@ -1,0 +1,583 @@
+[ 2017-04-06T09:09:44+08:00 ] 127.0.0.1 /?signature=2733c29a6a942944b315cb845e804465bbf01ffc&timestamp=1491440986&nonce=1515623206&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T09:09:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T09:09:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T09:09:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T09:09:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T09:10:23+08:00 ] 127.0.0.1 /?signature=1726359a44cd3e45c68d3b722240f23863012e32&timestamp=1491441025&nonce=2126071849&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T09:13:55+08:00 ] 127.0.0.1 /?signature=9b1c44288541927fe9617e03ef0939a3ee81bfc1&timestamp=1491441234&nonce=244681431&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:18:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:18:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:18:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:18:32+08:00 ] 127.0.0.1 /?signature=2928e7a296e60fdb9cb469ccf1d52182c8de14f2&timestamp=1491445113&nonce=940738383&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:18:35+08:00 ] 127.0.0.1 /?signature=6395e2e1e571c2695286b079bc35b513df462559&timestamp=1491445113&nonce=374600288&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:19:02+08:00 ] 127.0.0.1 /?signature=4eff748583876b04df9df49d343a77daf1021763&timestamp=1491445144&nonce=1429622690&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:19:03+08:00 ] 127.0.0.1 /?signature=fbac7d9172d4e48aa07762322c10c0498ca38b81&timestamp=1491445144&nonce=1257612841&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:23:55+08:00 ] 127.0.0.1 /?signature=c44533a3e58081303cd647790825a4ee99b78338&timestamp=1491445436&nonce=1645971027&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:24:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:24:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:25:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:25:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:25:20+08:00 ] 127.0.0.1 /?signature=9829b8d69840b2ce4f6911ebbc887df0047dd6bb&timestamp=1491445521&nonce=1201113075&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:25:20+08:00 ] 127.0.0.1 /?signature=7e8223e49d83e4572b312510b29e7baabcc59724&timestamp=1491445521&nonce=1174124953&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:26:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-06T10:26:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:26:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:26:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:27:11+08:00 ] 127.0.0.1 /?signature=364be4f71382b90a687841da56e7bca5399d58e7&timestamp=1491445632&nonce=1807746050&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:27:17+08:00 ] 127.0.0.1 /?signature=59b806ffc07ee3f9d3bce64ba29f005ab69b3031&timestamp=1491445639&nonce=1319385126&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:27:20+08:00 ] 127.0.0.1 /?signature=56ed028b4a54e3c548159a5e0274afa97a7a9f1e&timestamp=1491445641&nonce=203844837&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:27:27+08:00 ] 127.0.0.1 /?signature=3ddec16a8265b12f9939879af218d33d2a44dc35&timestamp=1491445648&nonce=10919616&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:33:14+08:00 ] 127.0.0.1 /?signature=0bf5f9bb2595618395ffdbdeae1323cfc2c33810&timestamp=1491445995&nonce=497646914&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:33:22+08:00 ] 127.0.0.1 /?signature=11546ff3e05168e571a77561d52e4e4b1dd349ac&timestamp=1491446003&nonce=1958965653&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:33:26+08:00 ] 127.0.0.1 /?signature=97035f27c02974e95ed517f9aa219ef820b159d1&timestamp=1491446008&nonce=608568925&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:49:23+08:00 ] 127.0.0.1 /?signature=3c78dbf898eaefc94d4ed9135f5c2fc2c554b832&timestamp=1491446964&nonce=958597566&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:49:25+08:00 ] 127.0.0.1 /?signature=eb6a0af40e48053c0acb8203c974ffe88109b2a6&timestamp=1491446967&nonce=1657471140&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:49:25+08:00 ] 127.0.0.1 /?signature=d0c6f1de111bfb5539525832f0ae14295f9bf9e3&timestamp=1491446967&nonce=1336976509&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:49:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:49:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:49:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:49:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T10:50:05+08:00 ] 127.0.0.1 /?signature=f8854477aff6229dd61ff4ae17a815947914240b&timestamp=1491447006&nonce=548808611&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T12:00:53+08:00 ] 127.0.0.1 /?signature=fa29974072f81ef39f32420c2f235b6a0ee67ea6&timestamp=1491451254&nonce=50633001&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T12:00:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T12:00:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T12:01:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T12:01:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: signature D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: timestamp D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 126 行.
+
+[ 2017-04-06T12:03:55+08:00 ] 127.0.0.1 /?signature=04eee916b26d34b776dd844f1253ef02aa51aa99&timestamp=1491451437&nonce=999268344&openid=oC_AjuGs-Zk1dXSXIp-XWrXZZQYE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

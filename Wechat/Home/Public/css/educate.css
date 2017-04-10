@@ -1,0 +1,21 @@
+
+body{
+	background: #F5F5F5;
+}
+
+
+
+/*底部导航*/
+.foot-black{height:48px; clear:both;}
+.weui-tabbar.wy-foot-menu{position:fixed;}
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label{color:#e21323;}
+.weui-tabbar__label{color:#666;}
+.weui-tabbar__icon{width:22px; height:22px;}
+.weui-tabbar__item .foot-menu-home{background:url(../images/footer01.png) no-repeat; background-size:22px;}
+.weui-tabbar__item.weui-bar__item--on .foot-menu-home{background:url(../images/footer001.png) no-repeat; background-size:22px;}
+.weui-tabbar__item .foot-menu-list{background:url(../images/footer02.png) no-repeat; background-size:22px;}
+.weui-tabbar__item.weui-bar__item--on .foot-menu-list{background:url(../images/footer002.png) no-repeat; background-size:22px;}
+.weui-tabbar__item .foot-menu-cart{background:url(../images/footer03.png) no-repeat; background-size:22px;}
+.weui-tabbar__item.weui-bar__item--on .foot-menu-cart{background:url(../images/footer003.png) no-repeat; background-size:22px;}
+.weui-tabbar__item .foot-menu-member{background:url(../images/footer04.png) no-repeat; background-size:22px;}
+.weui-tabbar__item.weui-bar__item--on .foot-menu-member{background:url(../images/footer004.png) no-repeat; background-size:22px;}
