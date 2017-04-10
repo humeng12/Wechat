@@ -1,0 +1,24 @@
+[ 2017-04-10T20:07:52+08:00 ] ::1 /Wechat/index.php/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GetUserInfo
+
+[ 2017-04-10T20:39:33+08:00 ] ::1 /Wechat/index.php/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GetUserInfo
+
+[ 2017-04-10T20:39:35+08:00 ] ::1 /Wechat/index.php/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GetUserInfo
+
+[ 2017-04-10T20:39:37+08:00 ] ::1 /Wechat/index.php/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GetUserInfo
+

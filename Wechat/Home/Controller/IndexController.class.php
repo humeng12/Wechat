@@ -9,8 +9,9 @@ define("APPSECRET", "ab6dcc21ccc1f0a965725eb7960d18a5");
 class IndexController extends Controller {
     public function index(){
 
-
         // $this->valid();
+        // $this->delegateMenu();
+        // $this->createMenu();
       	
        	header('content-type:text');		
         $echoStr = $_GET["echostr"];
@@ -26,11 +27,20 @@ class IndexController extends Controller {
             exit;
         } else {
             $this->responseMsg();
-            //$this->createMenu();
-			//$this->delegateMenu();
         }
     }
+
+    //取中间字符串
+    function getSubstr($str, $leftStr, $rightStr)
+    {
+        $left = strpos($str, $leftStr);
+        $right = strpos($str, $rightStr,$left);
+        if($left < 0 or $right < $left) return '';
+        return substr($str, $left + strlen($leftStr), $right-$left-strlen($leftStr));
+    }
     
+
+    //验证服务器与微信服务器是否相通
     public function valid()
     {
         $echoStr = $_GET["echostr"];
@@ -41,7 +51,6 @@ class IndexController extends Controller {
             exit;
         }
     }
-        
     private function checkSignature()
     {
         // you must define TOKEN by yourself
@@ -67,6 +76,7 @@ class IndexController extends Controller {
         }
     }
     
+    //网络请求
     private function https_request($url,$data = null){
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
@@ -133,13 +143,14 @@ class IndexController extends Controller {
         
     }
 
+    //创建菜单
     private function createMenu(){
         $jsonmenu = '{
               "button":[
               {
                    "name":"点击.进入女子学院",
                    "type":"view",
-                   "url":"http://meilinyuan.ngrok.cc/Wechat/Wechat/Home/View/index.html"
+                   "url":"http://mlyh.server.ngrok.cc/Wechat/Wechat/Home/View/index.html"
                }
             ]
          }';
@@ -150,7 +161,7 @@ class IndexController extends Controller {
         echo $result;
     }
     
-    
+    //删除菜单
     private function delegateMenu(){
     	$access_token = $this->getWxAccessToken();
     	$url = "https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=".$access_token;
@@ -163,10 +174,17 @@ class IndexController extends Controller {
     //1.用户关注以及回复消息的时候，均可以获得用户的OpenID FromUserName就是OpenID 
     //2. 然后使用access_token接口，请求获得全局Access Token https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
     //3. 再使用全局ACCESS_TOKEN获取OpenID的详细信息 https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID
-
-    public function getUserInfo(){
+    public function getUserInfo($FromUserName){
         
+        $access_token = $this->getWxAccessToken();
+
+        $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$access_token.'&openid='.$FromUserName;
+
+        $res = $this->https_request($url);
+
+        echo $res;
     }
+
 
     public function responseMsg(){
 
@@ -177,6 +195,10 @@ class IndexController extends Controller {
             //处理消息类型，并设置回复类型和内容
              $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
              $RX_TYPE = trim($postObj->MsgType);
+
+
+            //$this->getUserInfo($postObj->FromUserName);
+
 			
              //消息类型分离
             switch ($RX_TYPE)
@@ -223,7 +245,18 @@ class IndexController extends Controller {
         $content = "";
         switch ($object->Event){
             case "subscribe":
+            {
                 $content = "欢迎关注女子学院";
+                 $access_token = $this->getWxAccessToken();
+
+                 $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$access_token.'&openid='.$object->FromUserName;
+
+                $res = $this->https_request($url);
+
+                $res_json = $this->getSubstr($res,'"nickname":"','",');
+
+                $content = $res_json;
+            }
                 break;
             case "unsubscribe":
                  $content = "取消关注";
