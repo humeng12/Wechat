@@ -137,7 +137,7 @@ class IndexController extends Controller {
         $jsonmenu = '{
               "button":[
               {
-                   "name":"点击进入女子学院",
+                   "name":"点击.进入女子学院",
                    "type":"view",
                    "url":"http://meilinyuan.ngrok.cc/Wechat/Wechat/Home/View/index.html"
                }
