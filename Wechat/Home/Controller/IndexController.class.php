@@ -148,9 +148,9 @@ class IndexController extends Controller {
         $jsonmenu = '{
               "button":[
               {
-                   "name":"点击.进入女子学院",
+                   "name":"点击进入女子学院",
                    "type":"view",
-                   "url":"http://mlyh.server.ngrok.cc/Wechat/Wechat/Home/View/index.html"
+                   "url":"http://mlyh.ngrok.cc/Wechat/Wechat/Home/View/index.html"
                }
             ]
          }';
@@ -182,7 +182,7 @@ class IndexController extends Controller {
 
         $res = $this->https_request($url);
 
-        echo $res;
+        $nickname = $this->getSubstr($res,'"nickname":"','",');
     }
 
 
@@ -245,18 +245,7 @@ class IndexController extends Controller {
         $content = "";
         switch ($object->Event){
             case "subscribe":
-            {
                 $content = "欢迎关注女子学院";
-                 $access_token = $this->getWxAccessToken();
-
-                 $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$access_token.'&openid='.$object->FromUserName;
-
-                $res = $this->https_request($url);
-
-                $res_json = $this->getSubstr($res,'"nickname":"','",');
-
-                $content = $res_json;
-            }
                 break;
             case "unsubscribe":
                  $content = "取消关注";
@@ -354,8 +343,10 @@ class IndexController extends Controller {
              $content = array("Title"=>"最炫民族风", "Description"=>"歌手：凤凰传奇", "MusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3", "HQMusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3"); 
          }else{
 
-            $content = date("Y-m-d H:i:s",time())."\nOpenID：".$object->FromUserName."\n技术支持 方倍工作室";
-         }
+            //$content = date("Y-m-d H:i:s",time())."\nOpenID：".$object->FromUserName."\n技术支持 方倍工作室";
+            $content[] = array("Title"=>"女子学院",  "Description"=>"点击进入详情页", "PicUrl"=>"http://discuz.comli.com/weixin/weather/icon/cartoon.jpg", "Url" =>"http://mlyh.ngrok.cc/Wechat/Wechat/Home/View/introduce/index.html");
+        
+        }
  
          if(is_array($content)){
              if (isset($content[0])){
