@@ -6,39 +6,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 
 	<link rel="stylesheet" href="../Public/css/weui.min.css"/>
-	<link rel="stylesheet" href="../Public/css/jquery-weui.css"/>
+	<link rel="stylesheet" href="../Public/css/jquery-weui.min.css"/>
 	<link rel="stylesheet" href="../Public/css/style.css"/>
 	
 	<script src="../Public/js/jquery-2.1.4.js"></script> 
-	<script src="../Public/js/jquery-weui.js"></script>
+	<script src="../Public/js/jquery-weui.min.js"></script>
 </head>
 
 <body>
-	
-	<div class="top-num">
-		<div class="left-num"><span>0</span></div>
-		<div class="middle-num"><span>0</span></div>
-		<div class="right-num"><span>0</span></div>
-	</div>
-	<div class="message">
-		<div><span>坚持阅读 /天</span></div>
-		<div><span>学习时长 /分钟</span></div>
-		<div><span>已读书籍 /本</span></div>
-	</div>
-	<div class="mess-bottom">
-		<div class="middle-mail">
-			<a>
-				<div class="mail-img"><img src="../Public/images/youxiang.png"/></div>
-				<div class="mail-mess"><p>邮件</p></div>
-				<div class="arrow-img"><img src="../Public/images/jiantou.png"/></div>
+
+
+	<div class="top">
+		<div style="height: 20px;"></div>
+		<div>
+			<p class="read-day">0</p>
+			<p class="read-sec">0</p>
+			<p class="read-num">0</p>
+		</div>
+		<div class="tip">
+			<p class="tip-day">阅读/天</p>
+			<p class="tip-sec">阅读/分</p>
+			<p class="tip-num">阅读/本</p>
+		</div>
+
+		<div class="mail">
+			<a href="">
+				<img class="mail-img" src="../Public/images/youxiang.png"/>
+				<span>邮件</span>
+				<img class="arrow-img" src="../Public/images/jiantou.png"/>
 			</a>
 		</div>
 	</div>
 	
-  	
 	<!--底部导航-->
 	<div class="weui-tabbar">
-		<a href="../index.html" class="weui-tabbar__item weui-bar__item--on">
+		<a href="#" class="weui-tabbar__item weui-bar__item--on">
 		    <div class="weui-tabbar__icon foot-menu-home"></div>
 		    <p class="weui-tabbar__label">今日</p>
 		</a>
