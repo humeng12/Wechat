@@ -11,6 +11,7 @@
 	
 	<script src="../Public/js/jquery-2.1.4.js"></script> 
 	<script src="../Public/js/jquery-weui.min.js"></script>
+
 </head>
 
 <body>
@@ -53,9 +54,47 @@
 		    <p class="weui-tabbar__label">我的</p>
 		</a>
 	</div>
-	
 
-	<script>
-	</script>
 </body>
 </html>
+
+
+
+<script type="text/javascript">
+
+	$.ajax({
+
+		type:'post',
+		dataType:'json',
+		url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
+		data:{
+			'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
+		},
+		success:function(data){
+
+			var status = data['status'];
+
+			if (status == '0') {
+
+				if (data['data']) {
+
+					var readday = data['readday'];
+					var readtime = data['readtime'];
+					var readnum = data['readnum'];
+					$('.read-day').text(readday);
+					$('.read-sec').text(readtime);
+					$('.read-num').text(readnum);
+				}
+
+			} else {
+
+				
+			}
+		},
+		error:function(error){
+
+			$.toast("请求失败","text");
+		}
+	});
+
+</script>

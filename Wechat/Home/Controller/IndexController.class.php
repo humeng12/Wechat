@@ -13,7 +13,7 @@ class IndexController extends Controller {
         // $this->delegateMenu();
         // $this->createMenu();
       	
-       	// header('content-type:text');		
+       	header('content-type:text');		
         $echoStr = $_GET["echostr"];
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];

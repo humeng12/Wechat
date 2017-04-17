@@ -3,10 +3,90 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" href="../../Public/css/weui.min.css"/>
+	<link rel="stylesheet" href="../../Public/css/jquery-weui.min.css"/>
+
+
+	<script src="../../Public/js/jquery-2.1.4.js"></script> 
+	<script src="../../Public/js/jquery-weui.min.js"></script>
 	
 	<title>女子学院</title>
+
+	<style type="text/css">
+		.pay{
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 200px;
+		}
+	</style>
 </head>
 <body>
 
+
+
+
+	<div class="pay">
+		<a href="javascript:void(0);" onclick="pay()" class="weui-btn weui-btn_primary">支付</a>
+	</div>
+
 </body>
 </html>
+
+
+<script type="text/javascript">
+	
+	function pay() {
+
+		// $.showLoading('支付中...');
+
+		// var nowTime = getTime();
+		
+		// $.ajax({
+		// 	type:'post',
+		// 	dataType:'json',
+		// 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/uploadUserInfo',
+		// 	data:{
+		// 		'paytime':nowTime,
+		// 		'paytype':'1',
+		// 		'username':'小龙',
+		// 		'weixinid':'oC_xiaol-Zk1dXSXIp-XWrXZZQYE'
+		// 	},
+		// 	success:function(data){
+
+		// 		$.hideLoading();
+
+		// 		var status = data['status'];
+
+		// 		if (status == 0) {
+
+		// 			$.toast("成功");
+		// 		}
+		// 	},
+		// 	error:function(error){
+		// 		$.hideLoading();
+		// 		$.toast("请求失败","text");
+		// 	}
+		// });
+	}
+
+
+	function getTime(){
+		var date = new Date();
+	    var seperator1 = "-";
+	    var seperator2 = ":";
+	    var month = date.getMonth() + 1;
+	    var strDate = date.getDate();
+	    if (month >= 1 && month <= 9) {
+	        month = "0" + month;
+	    }
+	    if (strDate >= 0 && strDate <= 9) {
+	        strDate = "0" + strDate;
+	    }
+	    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+	            + " " + date.getHours() + seperator2 + date.getMinutes()
+	            + seperator2 + date.getSeconds();
+
+	    return currentdate;
+	}
+
+</script>
