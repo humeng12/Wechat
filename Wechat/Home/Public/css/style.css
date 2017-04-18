@@ -4,61 +4,15 @@ body{
 }
 
 
-
-.top{
-	width: 100%;
-	height: 20%;
-	background: #FFB90F;
-	position: absolute;
+.btn{
+	display:inline-block;
+	padding:2px 4px;
+	text-align:center;
 }
-
-
-.top .read-day,.read-sec,.read-num{
-	color: #ffffff;
-	margin-left: 21%;
-	display: inline;
-}
-.top .tip-day,.tip-sec,.tip-num{
-	display: inline;
-	color: #ffffff;
-	margin-left: 15%;
-	font-size: 14px;
-}
-.tip-sec{
-	margin-left: 13%;
-}
-.tip-num{
-	margin-left: 11%;
-}
-.read-day,.read-num{
-	font-size: 16px;
-}
-.read-sec{
-	font-size: 24px;
-}
-
-
-.mail{
-	height: 50px;
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 25px;
-	border-radius: 20px;
-	background: #ffffff;
-	float: left;
-}
-.mail img{
-	width: 20px;height: 20px;
-	margin-top: 15px;
-}
-
-.mail .mail-img{
-	margin-left: 10px;
-}
-
-.mail a span{
-	color: #000000;
-	font-size: 15px;
+.btn-read{
+	color:#ffffff;
+	background-color:#EE7621;
+	font-size: 12px;
 }
 
 

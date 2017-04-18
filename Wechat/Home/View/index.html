@@ -5,29 +5,97 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 
-	<link rel="stylesheet" href="../Public/css/weui.min.css"/>
-	<link rel="stylesheet" href="../Public/css/jquery-weui.min.css"/>
-	<link rel="stylesheet" href="../Public/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../Public/css/weui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../Public/css/jquery-weui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../Public/css/style.css"/>
 	
 	<script src="../Public/js/jquery-2.1.4.js"></script> 
 	<script src="../Public/js/jquery-weui.min.js"></script>
+
+
+	<style type="text/css">
+		
+		.top{width: 100%;height: 20%;background: #FFB90F;position: absolute;}
+		.top .read-day,.read-sec,.read-num{color: #ffffff;margin-left: 21%;display: inline;}
+
+		.tip .tip-day,.tip-sec,.tip-num{display: inline;color: #ffffff;font-size: 14px;}
+		.tip .tip-day{margin-left: 11%;}
+		.tip .tip-sec{margin-left: 6%;}
+		.tip .tip-num{margin-left: 5%;}
+
+		.read-day,.read-num{font-size: 16px;}
+		.read-sec{font-size: 24px;}
+
+		.mail{
+			height: 50px;
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 10px;
+			border-radius: 20px;
+			background: #ffffff;
+		}
+		.mail img{
+			width: 20px;height: 20px;
+			margin-top: 15px;
+		}
+
+		.mail .mail-img{
+			margin-left: 10px;
+		}
+
+		.mail a span{
+			color: #000000;
+			font-size: 15px;
+		}
+
+
+		.content{
+			width: 100%;height: 190px;
+			position: absolute;
+			margin-top: 150px;
+			background: #ffffff;
+		}
+		
+		.top-mess small{
+			padding-top: 5px;margin-left: 20px;color: #D3D3D3;
+		}
+
+
+		.introduct{
+			width: 100%;height: 150px;
+			/*background: #D8BFD8;*/
+		}
+		.introduct div{float: left;}
+		.introduct img{margin-top: 20px;margin-left: 20px;margin-bottom: 10px;width: 85px;height: 110px;}
+		.introduct h3{margin-top: 20px;font-size: 15px;}
+
+		.intro-info{margin-left: 20px;}
+		.intro-info small{color: #CDC9C9;font-size: 10px;}
+
+		.intro-info .sign{width: 50px;border:1px solid #D3D3D3;border-radius: 10px;text-align: center;color: #D3D3D3;font-size: 11px;}
+
+		.intro-info .tip-witchday{margin-top: 20px;}
+		.intro-info .tip-witchday .today{font-size: 16px;color: #FFB90F;}
+		.intro-info .tip-witchday .btn-small{margin-left: 70px;}
+
+	</style>
 
 </head>
 
 <body>
 
-
 	<div class="top">
 		<div style="height: 20px;"></div>
-		<div>
+		<div style="height: 30px;">
 			<p class="read-day">0</p>
 			<p class="read-sec">0</p>
 			<p class="read-num">0</p>
 		</div>
-		<div class="tip">
-			<p class="tip-day">阅读/天</p>
-			<p class="tip-sec">阅读/分</p>
-			<p class="tip-num">阅读/本</p>
+		<div style="height: 2px;"></div>
+		<div class="tip" style="height: 30px;">
+			<p class="tip-day">坚持阅读/天</p>
+			<p class="tip-sec">学习时长/分</p>
+			<p class="tip-num">已读书籍/本</p>
 		</div>
 
 		<div class="mail">
@@ -38,6 +106,34 @@
 			</a>
 		</div>
 	</div>
+
+
+	<div class="content">
+		<div class="top-mess">
+			<small>十个月提升自己计划</small>
+		</div>
+
+		<div style="height: 1px;background: #F2F2F2;margin-left: 10px;margin-right: 10px;margin-top: 8px"></div>
+
+		<div class="introduct">
+			<div class="pic"><img src="../Public/images/ban1.jpg"/></div>
+			<div class="intro-info">
+				<h3>《复活》</h3>
+				<small>难度系数</small>
+				<p class="sign">未签到</p>
+				<p class="tip-witchday">
+					<small class="today">1</small>
+					<small class="totalday">/5天</small>
+					<a class="btn btn-read btn-small" href="">点击阅读</a>
+				</p>
+			</div>
+			
+		</div>
+	</div>		
+
+
+
+
 	
 	<!--底部导航-->
 	<div class="weui-tabbar">
@@ -62,39 +158,39 @@
 
 <script type="text/javascript">
 
-	$.ajax({
+	// $.ajax({
 
-		type:'post',
-		dataType:'json',
-		url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
-		data:{
-			'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
-		},
-		success:function(data){
+	// 	type:'post',
+	// 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
+	// 	dataType:'json',
+	// 	data:{
+	// 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
+	// 	},
+	// 	success:function(data){
 
-			var status = data['status'];
+	// 		var status = data['status'];
 
-			if (status == '0') {
+	// 		if (status == '0') {
 
-				if (data['data']) {
+	// 			if (data['data']) {
 
-					var readday = data['readday'];
-					var readtime = data['readtime'];
-					var readnum = data['readnum'];
-					$('.read-day').text(readday);
-					$('.read-sec').text(readtime);
-					$('.read-num').text(readnum);
-				}
+	// 				var readday = data['readday'];
+	// 				var readtime = data['readtime'];
+	// 				var readnum = data['readnum'];
+	// 				$('.read-day').text(readday);
+	// 				$('.read-sec').text(readtime);
+	// 				$('.read-num').text(readnum);
+	// 			}
 
-			} else {
+	// 		} else {
 
 				
-			}
-		},
-		error:function(error){
+	// 		}
+	// 	},
+	// 	error:function(error){
 
-			$.toast("请求失败","text");
-		}
+	// 		$.toast("请求失败","text");
+	// 	}
 	});
 
 </script>
