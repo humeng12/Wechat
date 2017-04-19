@@ -99,7 +99,7 @@
 		</div>
 
 		<div class="mail">
-			<a href="">
+			<a href="email/index.html">
 				<img class="mail-img" src="../Public/images/youxiang.png"/>
 				<span>邮件</span>
 				<img class="arrow-img" src="../Public/images/jiantou.png"/>
@@ -118,8 +118,8 @@
 		<div class="introduct">
 			<div class="pic"><img src="../Public/images/ban1.jpg"/></div>
 			<div class="intro-info">
-				<h3>《复活》</h3>
-				<small>难度系数</small>
+				<h3></h3>
+				<small class="star"></small>
 				<p class="sign">未签到</p>
 				<p class="tip-witchday">
 					<small class="today">1</small>
@@ -158,39 +158,81 @@
 
 <script type="text/javascript">
 
-	// $.ajax({
+	$.ajax({
 
-	// 	type:'post',
-	// 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
-	// 	dataType:'json',
-	// 	data:{
-	// 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
-	// 	},
-	// 	success:function(data){
+		type:'post',
+	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
+	 	dataType:'json',
+	 	data:{
+	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
+	 	},
+	 	success:function(data){
 
-	// 		var status = data['status'];
+	 		var status = data['status'];
 
-	// 		if (status == '0') {
+	 		if (status == '0') {
 
-	// 			if (data['data']) {
+	 			var result = data['data'];
+	 			if (result) {
 
-	// 				var readday = data['readday'];
-	// 				var readtime = data['readtime'];
-	// 				var readnum = data['readnum'];
-	// 				$('.read-day').text(readday);
-	// 				$('.read-sec').text(readtime);
-	// 				$('.read-num').text(readnum);
-	// 			}
+	 				var readday = result[0]['readday'];
+	 				var readtime = result[0]['readtime'];
+	 				var readnum = result[0]['readnum'];
+	 				$('.read-day').text(readday);
+	 				$('.read-sec').text(readtime);
+	 				$('.read-num').text(readnum);
+	 			}
 
-	// 		} else {
+	 		} else {
+				
+	 		}
+	 	},
+	 	error:function(error){
+
+	 		$.toast("请求失败","text");
+	 	}
+	});
+
+
+
+	$.ajax({
+
+		type:'post',
+	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getWeekBookInfo',
+	 	dataType:'json',
+	 	data:{
+	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
+	 	},
+	 	success:function(data){
+
+	 		var status = data['status'];
+
+	 		if (status == '0') {
+
+	 			var result = data['data'];
+
+	 			if (result) {
+
+	 				var title = result[0]['title'];
+	 				var degree = result[0]['degree'];
+	 				var pic = result[0]['pic'];
+
+	 				var picUrl = 'http://mlyh.ngrok.cc/MlyBook/';
+
+	 				$('.intro-info h3').text(title);
+	 				$('.intro-info .star').text(degree);
+	 				$('.introduct .pic').src = picUrl.append(pic);
+	 			}
+
+	 		} else {
 
 				
-	// 		}
-	// 	},
-	// 	error:function(error){
+	 		}
+	 	},
+	 	error:function(error){
 
-	// 		$.toast("请求失败","text");
-	// 	}
+	 		$.toast("请求失败","text");
+	 	}
 	});
 
 </script>
