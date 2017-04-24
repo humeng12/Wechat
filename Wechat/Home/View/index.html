@@ -116,7 +116,7 @@
 		<div style="height: 1px;background: #F2F2F2;margin-left: 10px;margin-right: 10px;margin-top: 8px"></div>
 
 		<div class="introduct">
-			<div class="pic"><img src="../Public/images/ban1.jpg"/></div>
+			<div><img class="pic" src=""/></div>
 			<div class="intro-info">
 				<h3></h3>
 				<small class="star"></small>
@@ -124,7 +124,7 @@
 				<p class="tip-witchday">
 					<small class="today">1</small>
 					<small class="totalday">/5天</small>
-					<a class="btn btn-read btn-small" href="">点击阅读</a>
+					<a class="btn btn-read btn-small" href="read/index.html">点击阅读</a>
 				</p>
 			</div>
 			
@@ -161,7 +161,7 @@
 	$.ajax({
 
 		type:'post',
-	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
+	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getUserInfo',
 	 	dataType:'json',
 	 	data:{
 	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
@@ -181,6 +181,7 @@
 	 				$('.read-day').text(readday);
 	 				$('.read-sec').text(readtime);
 	 				$('.read-num').text(readnum);
+
 	 			}
 
 	 		} else {
@@ -198,7 +199,7 @@
 	$.ajax({
 
 		type:'post',
-	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getWeekBookInfo',
+	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getWeekBookInfo',
 	 	dataType:'json',
 	 	data:{
 	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
@@ -217,11 +218,13 @@
 	 				var degree = result[0]['degree'];
 	 				var pic = result[0]['pic'];
 
-	 				var picUrl = 'http://mlyh.ngrok.cc/MlyBook/';
+	 				var picUrl = 'http://mlyh.ngrok.cc/book/1';
+
+	 		
 
 	 				$('.intro-info h3').text(title);
 	 				$('.intro-info .star').text(degree);
-	 				$('.introduct .pic').src = picUrl.append(pic);
+	 				$('.introduct .pic').attr('src',(picUrl+pic))
 	 			}
 
 	 		} else {
