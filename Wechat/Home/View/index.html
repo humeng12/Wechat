@@ -164,6 +164,7 @@
 
 </head>
 
+<<<<<<< HEAD
 <body> 
       <div class="header">
         <div class="header_top">
@@ -228,6 +229,57 @@
           </div>
      </div>
       </div>
+=======
+<body>
+
+	<div class="top">
+		<div style="height: 20px;"></div>
+		<div style="height: 30px;">
+			<p class="read-day">0</p>
+			<p class="read-sec">0</p>
+			<p class="read-num">0</p>
+		</div>
+		<div style="height: 2px;"></div>
+		<div class="tip" style="height: 30px;">
+			<p class="tip-day">坚持阅读/天</p>
+			<p class="tip-sec">学习时长/分</p>
+			<p class="tip-num">已读书籍/本</p>
+		</div>
+
+		<div class="mail">
+			<a href="email/index.html">
+				<img class="mail-img" src="../Public/images/youxiang.png"/>
+				<span>邮件</span>
+				<img class="arrow-img" src="../Public/images/jiantou.png"/>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="content">
+		<div class="top-mess">
+			<small>十个月提升自己计划</small>
+		</div>
+
+		<div style="height: 1px;background: #F2F2F2;margin-left: 10px;margin-right: 10px;margin-top: 8px"></div>
+
+		<div class="introduct">
+			<div><img class="pic" src=""/></div>
+			<div class="intro-info">
+				<h3></h3>
+				<small class="star"></small>
+				<p class="sign">未签到</p>
+				<p class="tip-witchday">
+					<small class="today">1</small>
+					<small class="totalday">/5天</small>
+					<a class="btn btn-read btn-small" href="read/index.html">点击阅读</a>
+				</p>
+			</div>
+			
+		</div>
+	</div>		
+
+>>>>>>> origin/master
 
 	<!--底部导航-->
 	<div class="weui-tabbar">
@@ -252,10 +304,17 @@
 
 /*
 	$.ajax({
+<<<<<<< HEAD
         //请求类型
 		type:'POST',
 	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getUserInfo',
 	 	async:true,    //或false,是否异步
+=======
+
+		type:'post',
+	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getUserInfo',
+	 	dataType:'json',
+>>>>>>> origin/master
 	 	data:{
 	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
 	 	},
@@ -275,6 +334,7 @@
 	 				$('.read-day').text(readday);
 	 				$('.read-sec').text(readtime);
 	 				$('.read-num').text(readnum);
+
 	 			}
 	 			
 
@@ -293,7 +353,7 @@
 	/*$.ajax({
 
 		type:'post',
-	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getWeekBookInfo',
+	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getWeekBookInfo',
 	 	dataType:'json',
 	 	data:{
 	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
@@ -312,12 +372,18 @@
 	 				var degree = result[0]['degree'];
 	 				var pic = result[0]['pic'];
 
+<<<<<<< HEAD
 
 	 				var picUrl = 'http://mlyh.ngrok.cc/MlyBook/';
+=======
+	 				var picUrl = 'http://mlyh.ngrok.cc/book/1';
+
+	 		
+>>>>>>> origin/master
 
 	 				$('.intro-info h3').text(title);
 	 				$('.intro-info .star').text(degree);
-	 				$('.introduct .pic').src = picUrl.append(pic);
+	 				$('.introduct .pic').attr('src',(picUrl+pic))
 	 			}
 
 	 		} else {
