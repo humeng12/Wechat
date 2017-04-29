@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>女子学院</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script> 
+     <meta charset="utf-8">
+    <style type="text/css">
+       body{
+         margin:0;
+         padding:0;
+       }
+      .header_list{
+        background-color:#FF9A32;
+        width:100%;
+        height:20rem;
+        display:flex;
+        display:-webkit-flex;
+       }  
+         .header_list a{
+          color: #FFFFFF;
+          text-decoration:none;
+         }
+       #Creditinquiry{
+          padding-top:2rem;
+          width:25%;
+          color:#FFFFFF;
+          text-align:center;
+          height: 7rem;
+       }
+       #learningplan{
+          padding-top:2.5em;
+          width:25%;
+          color:#FFFFFF;
+          text-align:center;
+           height: 7rem;
+       }
+       #studenthandbook{
+         padding-top:2.1em;
+         width:25%;
+         color:#FFFFFF;
+         text-align:center;
+          height: 7rem;
+       }
+       #Penaltyrecord{
+         padding-top:2.2em;
+         width:25%;
+         color:#FFFFFF;
+         text-align:center;
+         height: 7rem;
+       }
+        .header_bottom{
+        display:flex;
+        display:-webkit-flex;
+        margin-top: -8rem;
+        }
+        .footer{
+          color:#C5C5C5;
+          padding-top:2em;
+          font-size:1.5em;
+        }
+        	.Calendar {
+				font-family: Verdana;
+				font-size: 0.5rem;
+				background-color: #FFFFFF;
+				text-align: center;
+				margin:2.8rem auto;
+				width: 97%;
+				height: 20rem;
+				line-height: 2rem;
+			}
+			.Calendar a {
+				color: #1e5494;
+			}
+			.Calendar table {
+				width: 100%;
+				border-collapse: collapse; 
+			}
+			.Calendar table thead {
+				color: blueviolet;
+			}
+			.Calendar table tr {
+				height: 90px;
+			}
+			.Calendar table td {
+				font-size:2em;
+				padding: 1px;
+				
+			}
+			.Calendar table tr.tou {
+				height: 40px;
+				text-align: center;
+			}
+			#idCalendarPre {
+			    color:#FFFFFF;
+				cursor: pointer;		
+			}
+			#toyear {
+				color: #FFFFFF;
+				font-size: 1.0rem;
+				margin-left:1.2rem;
+			}
+			#idCalendarNext {
+			    color:#FFFFFF;
+				cursor: pointer;
+				margin-left: 1.2rem;
+			}
+			#idCalendar {
+				margin-top: 50px;
+			}
+			#idCalendar td.onToday {
+				//今天的颜色
+				font-weight: bold;
+				color: red;
+			}
+			#idCalendar td.onSelect {
+				//要选择的颜色
+				font-weight: bold;
+				color: blue;
+			}
+			.attendance{
+			  color:#FFFFFF;
+			  font-weight:bold;
+			}
+			.week{
+			  color:#FFFFFF;
+			  margin-top:-0.5em;
+			}
+			.footer{
+			  color:#C2C2C2;
+			  margin-left:2rem;
+			  margin-top: 12rem;
+			  font-size: 1.2rem;
+			}
+			.left_right{
+				width: 4rem;
+				height: 4rem;
+			}
+			.right{
+				width: 10rem;
+				height: 1rem;
+				margin-left:1.8rem;
+			    display:flex;
+                display:-webkit-flex;
+                margin-top: 1.8rem;
+			}
+    </style>
+  </head>
+  <body ontouchstart>
+	<div class="header_list">
+	 <div id="Creditinquiry">
+	 <a href="teachtwo.html">
+	 	<img alt="" src="../../Public/images/Creditinquiry.jpg">
+	     <p>学分查询</p>
+	 </a>
+	   </div>
+	   <div id="learningplan">
+	   <a href="">
+	   	 <img alt="" src="../../Public/images/learningplan.jpg">
+	     <p>学习计划</p>
+	   </a>
+	   </div>
+	   <div id="studenthandbook">
+	   <a href="teachsix.html">
+	   	 <img alt="" src="../../Public/images/studenthandbook.jpg">
+	     <p>学生手册</p>
+	   </a>
+	   </div>
+	   <div id="Penaltyrecord">
+	   <a href="teachseven.html">
+	   	<img alt="" src="../../Public/images/Penaltyrecord.jpg">
+	     <p>处罚记录</p>
+	   </a>	     
+	   </div>
+	</div>
+	   <div class="header_bottom">
+	       <div class="left">
+	        <img class="setting" alt="" src="../../Public/images/setting.jpg">
+	         </div>
+	        <div class="left_right">
+	          <p class="attendance">考勤日历</p>
+	          <p class="week">第一周</p>
+	       </div>
+	       <div class="right">
+	       	<div id="idCalendarPre">&lt;</div>
+	       	<div id="toyear"><span id="idCalendarYear">2008</span>年 <span id="idCalendarMonth">8</span>月</div>
+			<div id="idCalendarNext">&gt;</div>
+	       </div>
+	   </div>
+	   <div class="content">
+	       <script type="text/javascript">
+            var $$ = function(id) {
+				return "string" == typeof id ? document.getElementById(id) : id;
+			};
+			var Class = {
+				create: function() {
+					return function() {
+						this.initialize.apply(this, arguments);
+					}
+				}
+			}
+			Object.extend = function(destination, source) {
+				for (var property in source) {
+					destination[property] = source[property];
+				}
+				return destination;
+			}
+			var Calendar = Class.create();
+			Calendar.prototype = {
+				initialize: function(container, options) {
+					this.Container = $$(container); //容器(table结构)
+					this.Days = []; //日期对象列表
+					this.SetOptions(options);
+					this.Year = this.options.Year;
+					this.Month = this.options.Month;
+					this.SelectDay = this.options.SelectDay ? new Date(this.options.SelectDay) : null;
+					this.onSelectDay = this.options.onSelectDay;
+					this.onToday = this.options.onToday;
+					this.onFinish = this.options.onFinish;
+					this.Draw();
+				},
+				//设置默认属性
+				SetOptions: function(options) {
+					this.options = { //默认值
+						Year: new Date().getFullYear(), //显示年
+						Month: new Date().getMonth() + 1, //显示月
+						SelectDay: null, //选择日期
+						onSelectDay: function() {}, //在选择日期触发
+						onToday: function() {}, //在当天日期触发
+						onFinish: function() {} //日历画完后触发
+					};
+					Object.extend(this.options, options || {});
+				},
+				//上一个月
+				PreMonth: function() {
+					//先取得上一个月的日期对象
+					var d = new Date(this.Year, this.Month - 2, 1);
+					//再设置属性
+					this.Year = d.getFullYear();
+					this.Month = d.getMonth() + 1;
+					//重新画日历
+					this.Draw();
+				},
+				//下一个月
+				NextMonth: function() {
+					var d = new Date(this.Year, this.Month, 1);
+					this.Year = d.getFullYear();
+					this.Month = d.getMonth() + 1;
+					this.Draw();
+				},
+				//画日历
+				Draw: function() {
+					//用来保存日期列表
+					var arr = [];
+					//用当月第一天在一周中的日期值作为当月离第一天的天数
+					for (var i = 1, firstDay = new Date(this.Year, this.Month - 1, 1).getDay(); i <= firstDay; i++) {
+						arr.push("&nbsp;");
+					}
+					//用当月最后一天在一个月中的日期值作为当月的天数
+					for (var i = 1, monthDay = new Date(this.Year, this.Month, 0).getDate(); i <= monthDay; i++) {
+						arr.push(i);
+					}
+					var frag = document.createDocumentFragment();
+					this.Days = [];
+					while (arr.length > 0) {
+						//每个星期插入一个tr
+						var row = document.createElement("tr");
+						//每个星期有7天
+						for (var i = 1; i <= 7; i++) {
+							var cell = document.createElement("td");
+							if (arr.length > 0) {
+								var d = arr.shift();
+								cell.innerHTML = d;
+								if (d > 0) {
+									this.Days[d] = cell;
+									//判断是否今日
+									if (this.IsSame(new Date(this.Year, this.Month - 1, d), new Date())) {
+										this.onToday(cell);
+									}
+									//判断是否选择日期
+									if (this.SelectDay && this.IsSame(new Date(this.Year, this.Month - 1, d), this.SelectDay)) {
+										this.onSelectDay(cell);
+									}
+								}
+							}
+							row.appendChild(cell);
+						}
+						frag.appendChild(row);
+					}
+					//先清空内容再插入(ie的table不能用innerHTML)
+					while (this.Container.hasChildNodes()) {
+						this.Container.removeChild(this.Container.firstChild);
+					}
+					this.Container.appendChild(frag);
+					this.onFinish();
+				},
+				//判断是否同一日
+				IsSame: function(d1, d2) {
+					return (d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate());
+				}
+			};
+		</SCRIPT>
+		<div class="Calendar">
+			<table cellpadding="0" cellspacing="0">
+				<thead>
+					<tr class="tou">
+						<td class="AAA">周日</td>
+						<td>周一</td>
+						<td>周二</td>
+						<td>周三</td>
+						<td>周四</td>
+						<td>周五</td>
+						<td>周六</td>
+					</tr>
+				</thead>
+				<tbody id="idCalendar">
+				</tbody>
+			</table>
+		</div>
+		<script language="JavaScript">
+			var cale = new Calendar("idCalendar", {
+				SelectDay: new Date().setDate(10), //要选择的日期，可注释
+				//			    onSelectDay: function(o){ o.className = "onSelect"; },   //增加 类
+				onToday: function(o) {
+					o.className = "onToday";
+				},
+				onFinish: function() {
+					$$("idCalendarYear").innerHTML = this.Year;
+					$$("idCalendarMonth").innerHTML = this.Month; //表头年份
+					// 		            var flag = [10,15,20];     //判断选择是不是指定日期
+					//			        for(var i = 0, len = flag.length; i < len; i++){
+					//			            this.Days[flag[i]].innerHTML = "<a href='javascript:void(0);' onclick=\"alert('日期是:"+this.Year+"/"+this.Month+"/"+flag[i]+"');return false;\">" + flag[i] + "</a>";
+					//			        }
+				}
+			});
+			$$("idCalendarPre").onclick = function() {
+                cale.PreMonth();
+            }
+            $$("idCalendarNext").onclick = function() {
+                    cale.NextMonth();
+                }
+                //点击表格里面的值
+
+        </SCRIPT>
+	   </div>
+	   <div class="footer">
+	       <p><i>注：每周六为复习日  每周日为测试日<i></p>
+	   </div>
+      
+  </body>
+</html>
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>欢迎进入熊猫书院</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../../Public/lib/weui.min.css">
+<link rel="stylesheet" href="../../Public/css/jquery-weui.css">
+<link rel="stylesheet" href="../../Public/css/demos.css">
+
+<style type="text/css">
+.right{
+ width:18em;
+ margin-left:1rem;
+}
+
+img{
+  width:4em;
+  height:4em;
+  padding-top:1em;
+  margin-left:1em;
+}
+body{
+ background-color:#F3F3F3;
+}
+.content{
+  background-color:#FFFFFF;
+  margin-top:1.5em;
+  display: flex;
+  display: -webkit-flex;
+}
+h1{
+  font-size:1em;
+}
+span{
+  color:#F1F1F1;
+  margin-left:2em;
+}
+</style>
+  </head>
+
+  <body ontouchstart>
+
+    <div class="weui-tab">
+      <div class="weui-navbar">
+        <a class="weui-navbar__item weui-bar__item--on" href="#tab1">
+          所有邮件
+        </a>
+        <a class="weui-navbar__item" href="#tab2">
+          档案室
+        </a>
+        <a class="weui-navbar__item" href="#tab3">
+          教研中心
+        </a>
+      </div>
+      <div class="weui-tab__bd">
+        <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+        <div class="content">
+          <div class="left">
+            <img alt="" src="../../Public/images/user_img.jpg">
+          </div>
+          <div class="right">
+            <h1>你有新的成就已达成<span>4月7日</span></h1>
+            <p>档案室-龟大师1</p>
+            <p>获得阅读书本成就，前往【我的】-【成就】领取</p>
+          </div>
+        </div>
+        </div>
+        <div id="tab2" class="weui-tab__bd-item">
+         <div class="content">
+          <div class="left">
+            <img alt="" src="../../Public/images/user_img.jpg">
+          </div>
+          <div class="right">
+            <h1>你有新的成就已达成<span>4月7日</span></h1>
+            <p>档案室-龟大师2</p>
+            <p>获得阅读书本成就，前往【我的】-【成就】领取</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        </div>
+        <div id="tab3" class="weui-tab__bd-item">
+         <div class="content">
+          <div class="left">
+            <img alt="" src="../../Public/images/user_img.jpg">
+          </div>
+          <div class="right">
+            <h1>你有新的成就已达成<span>4月7日</span></h1>
+            <p>档案室-龟大师2</p>
+            <p>获得阅读书本成就，前往【我的】-【成就】领取</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        </div>
+    </div>
+  </div>
+    <script src="../../Public/lib/jquery-2.1.4.js"></script>
+<script src="../../Public/lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../../Public/js/jquery-weui.min.js"></script>
+
+    <script>
+      $("#a").select({
+        title: "选择职业",
+        items: ["法官", "医生", "猎人", "学生", "记者", "其他"]
+      });
+    </script>
+  </body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+  // $.ajax({
+
+  //  type:'post',
+  //    url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
+  //    dataType:'json',
+  //    data:{
+  //      'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
+  //    },
+  //    success:function(data){
+
+  //      var status = data['status'];
+
+  //      if (status == '0') {
+
+  //        if (data['data']) {
+
+  //          var readday = data['readday'];
+  //          var readtime = data['readtime'];
+  //          var readnum = data['readnum'];
+  //          $('.read-day').text('10');
+  //          $('.read-sec').text(readtime);
+  //          $('.read-num').text(readnum);
+  //        }
+
+  //      } else {
+
+        
+  //      }
+  //    },
+  //    error:function(error){
+
+  //      $.toast("请求失败","text");
+  //    }
+  // });
+
+</script>

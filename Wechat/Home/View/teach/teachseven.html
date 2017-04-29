@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>女子学院</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/punish.css">
+    
+    <style type="text/css">
+        *{
+          margin:0em;
+          padding:0em;
+         }
+        .header{
+          width:100%;
+          height:30rem;
+          background-color:#EFA05B;
+        }
+        body{
+         background-color:#EEF3FA;
+        }
+        
+        .first{
+         background-color:#FFFFFF;
+         padding-top:2rem;
+         width:90%;
+         margin:0rem auto; 
+        }
+        .second{
+         background-color:#FFFFFF;
+          padding-top:2rem;
+          width:90%;
+          margin:0rem auto; 
+        }
+        .content{
+            padding-top:2rem;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="header">
+		<a class="btnA" href="teacheight.html">处罚规则</a>
+		<div id="myStat" data-dimension="250" data-text="20" data-info="dfnfk" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#7ea568" data-bgcolor="#eee" data-type="half" data-fill="#ddd">
+		</div>
+       </div>
+      <div class="content">
+      <div class="first">
+      <p>2017-04-09</p>
+        <div>
+           <p>-3</p>
+           <p>20->17</p>
+           <img alt="" src="">
+        </div>
+        <p>未参加周测</p>
+      </div>       
+        <div class="second">
+        <p>2017-04-09</p>
+        <div>
+           <p>-3</p>
+           <p>20->17</p>
+           <img alt="" src="">
+        </div>
+        <p>周一恢复</p>
+        </div>
+      </div>
+  </body>
+</html>
+<script type="text/javascript">
+    $(function() {
+        $('#myStat').circliful();            
+    });
+</script>

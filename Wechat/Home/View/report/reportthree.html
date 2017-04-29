@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>女子学院</title>
+    <script type="text/javascript" src="../../Public/js/jquery-1.10.1.js"></script>
+    <meta charset="UTF-8">
+     <style type="text/css">
+        .yuan{
+           width:20px;
+           height:20px;
+           background-color:#F6B09F;
+           border-radius:50%;
+           margin-left:230px;
+           float:left;
+           margin-top:60px;
+        }
+        h1{
+          font-size:50px;
+          text-align:center;
+        }
+        p{
+          font-size:48px;
+        }
+        body{
+          width:90%;
+          margin:0px auto;
+          line-height:80px;
+        }
+        a{
+          text-decoration:none;
+          color:#F6B09F;
+        }
+        .choice{
+          font-size:50px;
+        }
+        .next{ 
+        width:300px; 
+        height:90px;
+        border-radius:50px; 
+        background-color:#F99051; 
+        line-height:90px; 
+        text-align:center; 
+        color:#fff;
+        font-size:45px;
+        margin:90px auto;
+        }
+        .title_top h1{
+         float:right;   
+        margin-right:200px;
+        }
+        .clear{
+          clear:both
+        }
+        .title_top{
+          padding-top:50px;
+        }
+        .title_bottom{
+          text-align:center;
+        }
+       .triangle-left {
+       width: 0;
+       height: 0;
+       border-top: 20px solid transparent;
+       border-right: 40px solid #F99051;
+       border-bottom: 20px solid transparent;
+       float:left;
+       margin-left:20px;
+       margin-top:60px;
+       }
+       .title_bottom h2{
+        float:right;
+        font-size:50px;
+       }
+       .choice_title{
+         text-align:center;
+       }
+       .footer_choice{
+         width:80%;
+         position:absolute;
+         top:30rem;
+         z-index:5;
+        background-color:#EEF3FA;
+        left:6rem;
+       }
+       .close{
+        width:300px; 
+        height:90px;
+        border-radius:50px; 
+        background:#F99051; 
+        line-height:90px; 
+        text-align:center; 
+        color:#fff;
+        font-size:45px;
+        margin:90px auto;
+       }
+       .footer_choice_content P{
+         color:#000000;
+        
+       }
+     </style> 
+  </head>
+  
+ <body>
+    <div class="all">
+      <div class="title">
+       <div class="title_top">
+         <div class="yuan"></div>
+         <h1>3/3.激活学员身份</h1>
+         <div class="clear"></div>
+       </div>
+       <div class="title_bottom">
+           <div class="triangle-left"></div>
+          <h2>进入学习专用公众号，获取学员身份</h2>
+          <div class="clear"></div>
+       </div>
+      </div>
+      <div class="content">
+        <p>班级是熊猫书院的基本组织单位，它会尽可能
+        的将地域相同或相近的学员以读书和学习为基础，
+        凝聚一群有意愿成长和提升自己的人按一定人数规模进行组建。
+        班群主要用于学员进行学习交流讨论、线下活动组织。<a herf="#" id="choice">如何选择?</a></p>   
+      <div class="choice">
+      <div class="top">
+       <input class="left" type="radio" name="radio" value="1">我要参与分班
+      </div>
+      <div class="bottom">
+        <input class="right" type="radio" name="radio" value="2">不了，我想自己学习
+      </div>
+     </div>
+      </div>
+      <div class="footer">
+       <div class="next"><b>下一步</b></div>
+       </div>
+     </div>
+       <div class="footer_choice" style="display:none">
+            <p class="choice_title">如何选择?</p>
+            <div class="footer_choice_content">
+              <p class="choice_enjoy">
+                          如果你喜欢与他人交流讨论，乐于参与线下活动，不排斥过多班群消息，那么你适合参与分班
+            </p class="unchoice_enjoy">
+            <p>如果你喜欢自己安安静静的读书与学习，不喜欢过多消息的打扰，那么你适合选择不参与分班</p>
+            </div>
+             <div class="close" id="close_window"><b>关闭</b></div>
+        </div>
+  </body>
+</html>
+<script type="text/javascript">
+     $("#choice").click(function(){
+        $(".footer_choice").css('display',"block");
+        $(".all").css('color',"#EEF3FA");
+        $(".footer_choice_content").css('color',"#FFFFFF");
+     });
+     $("#close_window").click(function(){
+        $(".footer_choice").css('display',"none");
+         $(".all").css('color',"#000000");   
+     });
+     $(".next").click(function(){
+        alert("进入下一个页面");
+     });
+</script>

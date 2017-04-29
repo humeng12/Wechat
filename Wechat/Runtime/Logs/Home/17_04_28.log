@@ -1,0 +1,405 @@
+[ 2017-04-28T09:30:04+08:00 ] 127.0.0.1 /Wechat/index.php?signature=2cf3854e14e89ece0e2d7f57aabee40af0284482&timestamp=1493343059&nonce=34722699&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-28T09:30:05+08:00 ] 127.0.0.1 /Wechat/index.php?signature=ee87997ede66329933a779b38dea8d5c00cce6e4&timestamp=1493343059&nonce=1306208916&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T09:30:11+08:00 ] 127.0.0.1 /Wechat/index.php?signature=357dfa88ea45b7820b9cc562d37c8b8e4f24ffdc&timestamp=1493343067&nonce=1774314364&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T09:31:46+08:00 ] 127.0.0.1 /Wechat/index.php?signature=d7e62f935b957fdb7ad4d00019023fca95b61a3e&timestamp=1493343161&nonce=1178949092&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T09:52:23+08:00 ] 127.0.0.1 /Wechat/index.php?signature=f534ae3c67bccf770f69e0178b95af99c3949bff&timestamp=1493344398&nonce=510815775&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T11:32:30+08:00 ] 127.0.0.1 /Wechat/index.php?signature=a8e27a9942b164185c26c94088b9ca7d0b1fd61a&timestamp=1493350407&nonce=21840358&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T11:32:33+08:00 ] 127.0.0.1 /Wechat/index.php?signature=a7ebbe06a2de722bb97fab7cabeac2bce4950271&timestamp=1493350409&nonce=1077477050&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-28T11:40:03+08:00 ] 127.0.0.1 /Wechat/index.php?signature=27015d910d50afd66fffc9c023d76d2a77bb2b3b&timestamp=1493350859&nonce=1765407743&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T11:40:04+08:00 ] 127.0.0.1 /Wechat/index.php?signature=698cfbf1cd4917f70961f088ff5c5bd4b43a20d6&timestamp=1493350859&nonce=618679285&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-28T11:40:15+08:00 ] 127.0.0.1 /Wechat/index.php?signature=44fbc07a381ffea1bc0aac724b1044643f4745fc&timestamp=1493350872&nonce=1665961658&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T11:45:05+08:00 ] 127.0.0.1 /Wechat/index.php?signature=d5cb4772b85996e48353f29e7e23eefd71d577b5&timestamp=1493351162&nonce=730819526&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-28T11:46:18+08:00 ] 127.0.0.1 /Wechat/index.php?signature=d6879ba875546dedc8443663f9e53bdcd0d42940&timestamp=1493351235&nonce=163022710&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-28T14:03:44+08:00 ] 127.0.0.1 /Wechat/index.php?signature=a948475a088a0e8836bebf1c2711f22411a1c43d&timestamp=1493359480&nonce=1941451085&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:03:52+08:00 ] 127.0.0.1 /Wechat/index.php?signature=a52274440e7d1901ac0742fad0fb2d80a6be2c97&timestamp=1493359488&nonce=1281325132&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:03:53+08:00 ] 127.0.0.1 /Wechat/index.php?signature=b0ffa3f07a37357352a32ab2104a2f7ff8473f70&timestamp=1493359489&nonce=1842985329&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:04:06+08:00 ] 127.0.0.1 /Wechat/index.php?signature=be727313f247b1f3e88506f447e8b69241a6a8f3&timestamp=1493359502&nonce=1733571504&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:05:45+08:00 ] 127.0.0.1 /Wechat/index.php?signature=6affbd34f0b781e016255bacbaad78bd8a68c5db&timestamp=1493359601&nonce=2031131196&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:05:46+08:00 ] 127.0.0.1 /Wechat/index.php?signature=6cbc8dc19c63fd117cf91795bece3663b60d3280&timestamp=1493359602&nonce=250398493&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:05:52+08:00 ] 127.0.0.1 /Wechat/index.php?signature=1ee196e8302288f3025794822438c1a2a94a8df4&timestamp=1493359608&nonce=790915844&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-28T14:09:45+08:00 ] 127.0.0.1 /Wechat/index.php?signature=d7226e1c0fa51ee37b3456a594ed1b90e297fe16&timestamp=1493359841&nonce=2046314095&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:10:13+08:00 ] 127.0.0.1 /Wechat/index.php?signature=4ab8b10b2ab520d4192452163165d5697c08771a&timestamp=1493359869&nonce=1891799624&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:11:26+08:00 ] 127.0.0.1 /Wechat/index.php?signature=6ccd8d56fefcc1585397471d3c7b5b589865e704&timestamp=1493359942&nonce=1746664045&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:11:32+08:00 ] 127.0.0.1 /Wechat/index.php?signature=fe2662f8d8891181a1d7cc07b5a84c8c0d79ac68&timestamp=1493359948&nonce=498657464&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:11:35+08:00 ] 127.0.0.1 /Wechat/index.php?signature=e16702caa699d641d0cdf230afa3ab69aa947f54&timestamp=1493359951&nonce=67985650&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:12:48+08:00 ] 127.0.0.1 /Wechat/index.php?signature=cebce6d8214b053183f1ef5fc7bbb80237f4604a&timestamp=1493360024&nonce=1483058808&openid=oV-bKv_NfGTi1DOToBMP_Notc2Tw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:30:57+08:00 ] 127.0.0.1 /Wechat/index.php?signature=27fc41ece257ebec0cb2d6f1ca8be5c2350c2749&timestamp=1493361112&nonce=431329993&openid=osb230557RpUURb3iJ9R88MSFbYQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-28T14:32:13+08:00 ] 127.0.0.1 /Wechat/index.php?signature=a44518716f80ef545d5f2ee2b5f527b09f639ce8&timestamp=1493361189&nonce=1127821434&openid=osb2304l91Ti2_ulZoJGPYu5Sq-w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\Wechat\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\phpStudy\WWW\Wechat\Wechat\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

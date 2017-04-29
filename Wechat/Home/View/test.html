@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <link rel="stylesheet" href="../../Home/Public/dist/css/style.css">
+    <script type="text/javascript" src="../../Home/Public/js/jquery-1.9.1.min.js"></script>
+    <style>
+      .contaniner{width: 960px;margin: 20px auto}
+      .star_bg{position: relative;background: url(../Public/images/1.png) repeat-x;width: 90px;height: 20px;}
+      .star_on{background: url(../Public/images/2.png) repeat-x;width: 0;height: 20px; }
+      input{position: absolute;top: 0;padding: 0;margin: 0;width: 18px;height: 18px;opacity: 0;filter:alpha(opacity=0);}
+      input.score_1{left: 0;}
+      input.score_2{left: 18px;}
+      input.score_3{left: 36px;}
+      input.score_4{left: 54px;}
+      input.score_5{left: 72px;}
+    </style>
+  </head>
+  <body>
+    <div class="contaniner">
+      <div class="star_bg">
+        <div class="star_on"></div>
+        <input type="radio" name="score_1" class="score_1">
+        <input type="radio" name="score_1" class="score_2">
+        <input type="radio" name="score_1" class="score_3">
+        <input type="radio" name="score_1" class="score_4">
+        <input type="radio" name="score_1" class="score_5">
+      </div>
+      <div class="star_bg">
+        <div class="star_on"></div>
+        <input type="radio" name="score_2" class="score_1">
+        <input type="radio" name="score_2" class="score_2">
+        <input type="radio" name="score_2" class="score_3">
+        <input type="radio" name="score_2" class="score_4">
+        <input type="radio" name="score_2" class="score_5">
+      </div>
+      <div class="star_bg">
+        <div class="star_on"></div>
+          <input type="radio" name="score_3" class="score_1">
+          <input type="radio" name="score_3" class="score_2">
+          <input type="radio" name="score_3" class="score_3">
+          <input type="radio" name="score_3" class="score_4">
+          <input type="radio" name="score_3" class="score_5">
+      </div>
+    </div>
+       <script>
+      $(function(){
+        $("input").click(function(){
+          var index=$(this).index();          
+          var sibling=$(this).parent(".star_bg").find(".star_on");
+          var wid=(index)*18+"px";
+          sibling.css("width",wid)
+          })
+      })
+    </script>
+  
+  </body>
+</html>

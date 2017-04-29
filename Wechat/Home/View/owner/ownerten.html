@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>女子学院</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../../../Home/Public/js/jquery-1.10.1.js"></script>
+    <style type="text/css">
+    html{
+        font-size:14px;
+    }
+    body{
+      margin:0px;
+      padding:0px;
+    }
+    
+        .all{
+          width:100%;
+          background-color:#FF9A32;
+          height:500px;
+        }
+        .text{
+         font-size:45px;
+         color:#FFFFFF;
+         text-align:center;
+         padding-top:50px;
+        }
+        .first img{
+          width:300px;
+          height:60px;
+          margin-left:340px;
+        }
+        .second img{
+           width:80px;
+           height:80px;
+           margin-top:-20px;
+        }
+        .pic .first{
+          float:left;
+        }
+        .pic .second{
+         float:right;
+         margin-right:50px;
+        }
+        .clear{
+         clear:both;
+        }
+        .pic{
+          padding-top:50px;
+        }
+        .hotline24{ 
+        width:300px; 
+        height:90px;
+        border-radius:50px; 
+        background:#FFFFFF; 
+        line-height:90px; 
+        text-align:center; 
+        color:#FF9A32;
+        font-size:45px;
+        margin:0px auto;
+        margin-top:80px;
+        }
+         a,a:hover,a:active,a:visited,a:link,a:focus{
+      -webkit-tap-highlight-color:rgba(0,0,0,0);
+      -webkit-tap-highlight-color: transparent;
+      outline:none;
+      background: none;
+      text-decoration: none;
+     }
+    </style>
+  </head>
+  <body>
+      <div class="all">
+      <div class="pic">
+          <div class="first"> 
+          <img  alt="" src="../../Public/images/panda04.png">  
+          </div>
+         <div class="second">
+          <a href="ownereleven.html">
+         <img  alt="" src="../../Public/images/panda01.png">
+          </a>
+         </div>
+         <div class="clear"></div>
+      </div>
+         <div class="text">当前尚未请假</div>
+         <div class="hotline24">请假</div>
+      </div>     
+  </body>
+</html>
+<script type="text/javascript">
+     $(document).ready(function(){
+        $(".hotline24").click(function(){
+          alert("点击了事件");
+        });
+     });
+</script>

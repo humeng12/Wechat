@@ -3,31 +3,32 @@ namespace Home\Controller;
 use Think\Controller;
 
 define("TOKEN", "weixindemo");
-define("APPID", "wx01d524b6a46a3884");
-define("APPSECRET", "ab6dcc21ccc1f0a965725eb7960d18a5");
+define("APPID", "wx5be0ef8a6f12a155");
+define("APPSECRET", "9dc1c9af72a8b806ffa24dfa21a5b9a3");
 
 class IndexController extends Controller {
     public function index(){
 
-        // $this->valid();
-        // $this->delegateMenu();
-        // $this->createMenu();
+             //$this->valid();
+          //$this->delegateMenu();
+         $this->createMenu();
       	
-       	header('content-type:text');		
-        $echoStr = $_GET["echostr"];
-        $signature = $_GET["signature"];
-        $timestamp = $_GET["timestamp"];
-        $nonce = $_GET["nonce"];
-        $token = 'weixindemo';
-        $tmpArr = array($token, $timestamp, $nonce);
-        sort($tmpArr, SORT_STRING);
-        $tmpStr = implode($tmpArr);
-        $tmpStr = sha1($tmpStr);
-        if($tmpStr == $signature && $echoStr){
-            exit;
-        } else {
-            $this->responseMsg();
-        }
+       	// header('content-type:text');		
+        // $echoStr = $_GET["echostr"];
+        // $signature = $_GET["signature"];
+        // $timestamp = $_GET["timestamp"];
+        // $nonce = $_GET["nonce"];
+        // $token = 'weixindemo';
+        // $tmpArr = array($token, $timestamp, $nonce);
+        // sort($tmpArr, SORT_STRING);
+        // $tmpStr = implode($tmpArr);
+        // $tmpStr = sha1($tmpStr);
+        // if($tmpStr == $signature && $echoStr){
+        //     exit;
+        // } else {
+        //     //回复消息
+        //     $this->responseMsg();
+        // }
     }
 
     //取中间字符串
@@ -91,10 +92,10 @@ class IndexController extends Controller {
         curl_close($curl);
         return $output;
     }
-
+    
     private function get_access_token(){
-        $appid = "wx01d524b6a46a3884";
-        $appsecret = "ab6dcc21ccc1f0a965725eb7960d18a5";
+        $appid = "wx5be0ef8a6f12a155";
+        $appsecret = "9dc1c9af72a8b806ffa24dfa21a5b9a3";
         $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$appsecret;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -150,7 +151,7 @@ class IndexController extends Controller {
               {
                    "name":"点击进入女子学院",
                    "type":"view",
-                   "url":"http://mlyh.ngrok.cc/Wechat/Wechat/Home/View/index.html"
+                   "url":"http://chengxiaolong.tunnel.2bdata.com/Wechat/Wechat/Home/View/index.html"
                }
             ]
          }';
@@ -185,7 +186,7 @@ class IndexController extends Controller {
         $nickname = $this->getSubstr($res,'"nickname":"','",');
     }
 
-
+      //恢复消息
     public function responseMsg(){
 
         //获取微信推送来的消息(xml)
@@ -199,8 +200,10 @@ class IndexController extends Controller {
 
             //$this->getUserInfo($postObj->FromUserName);
 
+            echo  $postObj->FromUserName;
+
 			
-             //消息类型分离
+             //消息类型分离  接受消息
             switch ($RX_TYPE)
             {
                 case "event":
@@ -320,6 +323,8 @@ class IndexController extends Controller {
      private function receiveText($object)
      {
          $keyword = trim($object->Content);
+
+
          //多客服人工回复模式
          if (strstr($keyword, "请问在吗") || strstr($keyword, "在线客服")){
              $result = $this->transmitService($object);
@@ -344,8 +349,10 @@ class IndexController extends Controller {
          }else{
 
             //$content = date("Y-m-d H:i:s",time())."\nOpenID：".$object->FromUserName."\n技术支持 方倍工作室";
-            $content[] = array("Title"=>"女子学院",  "Description"=>"点击进入详情页", "PicUrl"=>"http://discuz.comli.com/weixin/weather/icon/cartoon.jpg", "Url" =>"http://mlyh.ngrok.cc/Wechat/Wechat/Home/View/introduce/index.html");
-        
+           /* $content[] = array("Title"=>"女子学院",  "Description"=>"点击进入详情页", "PicUrl"=>"http://discuz.comli.com/weixin/weather/icon/cartoon.jpg", "Url" =>"http://mlyh.ngrok.cc/Wechat/Wechat/Home/View/introduce/index.html");
+
+        */
+            $content = $keyword;
         }
  
          if(is_array($content)){
@@ -433,13 +440,12 @@ class IndexController extends Controller {
          if(!is_array($newsArray)){
              return "";
          }
-         $itemTpl = "        <item>
+         $itemTpl = "  <item>
              <Title><![CDATA[%s]]></Title>
              <Description><![CDATA[%s]]></Description>
              <PicUrl><![CDATA[%s]]></PicUrl>
              <Url><![CDATA[%s]]></Url>
-         </item>
- ";
+            </item>";
          $item_str = "";
          foreach ($newsArray as $item){
              $item_str .= sprintf($itemTpl, $item['Title'], $item['Description'], $item['PicUrl'], $item['Url']);
@@ -451,8 +457,9 @@ class IndexController extends Controller {
      <MsgType><![CDATA[news]]></MsgType>
      <ArticleCount>%s</ArticleCount>
      <Articles>
- $item_str    </Articles>
- </xml>";
+     $item_str    
+     </Articles>
+     </xml>";
  
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), count($newsArray));
          return $result;
@@ -479,7 +486,7 @@ class IndexController extends Controller {
      <CreateTime>%s</CreateTime>
      <MsgType><![CDATA[music]]></MsgType>
      $item_str
- </xml>";
+     </xml>";
  
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
          return $result;
@@ -500,7 +507,7 @@ class IndexController extends Controller {
      <CreateTime>%s</CreateTime>
      <MsgType><![CDATA[image]]></MsgType>
      $item_str
- </xml>";
+      </xml>";
  
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
          return $result;
@@ -520,7 +527,7 @@ class IndexController extends Controller {
      <CreateTime>%s</CreateTime>
      <MsgType><![CDATA[voice]]></MsgType>
      $item_str
- </xml>";
+      </xml>";
  
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
          return $result;
@@ -544,7 +551,7 @@ class IndexController extends Controller {
      <CreateTime>%s</CreateTime>
      <MsgType><![CDATA[video]]></MsgType>
      $item_str
- </xml>";
+     </xml>";
  
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
          return $result;
@@ -558,7 +565,7 @@ class IndexController extends Controller {
      <FromUserName><![CDATA[%s]]></FromUserName>
      <CreateTime>%s</CreateTime>
      <MsgType><![CDATA[transfer_customer_service]]></MsgType>
- </xml>";
+     </xml>";
          $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
          return $result;
      }

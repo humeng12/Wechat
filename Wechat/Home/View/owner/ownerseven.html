@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>女子学院</title>
+    <meta charset="UTF-8">
+     <script type="text/javascript" src="../../Public/js/jquery-1.10.1.js"></script>
+    <style type="text/css">
+         body{
+         margin:0; 
+         padding:0;
+         background-color:#FF9A32;
+       }
+      .title p{
+       color:#FFFFFF;
+       font-size:40px;
+       text-align:center;
+      }
+      .list{
+       border:1px solid red;
+      }
+      .first p{
+        font-size:30px;
+        color:#FFF;
+        text-align:center;
+      }
+      .second p{
+        font-size:30px;
+        color:#FFF;
+        text-align:center;
+      }
+      .thrid p{
+        font-size:30px;
+        color:#FFF;
+        text-align:center;
+      }
+      .content .first{
+       float:left;
+       width:33%;
+      }
+       .content .second{
+       float:left;
+        width:33%;
+      }
+       .content .thrid{
+       float:left;
+        width:33%;
+      }
+      .clear{
+        clear:both;
+      }
+      .first_img{
+         text-align:center;
+       }
+        .first_img img{
+         width:80px;
+         height:80px;
+       }
+       .second_img{
+         text-align:center;
+       }
+       .second_img img{
+        width:80px;
+         height:80px;
+       }
+       .thrid_img{
+         text-align:center;
+       }
+       .thrid_img img{
+        width:80px;
+         height:80px;
+       }
+       .bottom3 p{
+        color:#FFFFFF;
+        font-size:50px;
+        text-align:center;
+       }
+    </style>
+    <script type="text/javascript"> 
+    $(document).ready(function(){
+       $(".question").click(function(){
+        $(".bottom1").css('display',"block");
+        $(".bottom2").css('display',"none");
+        $(".bottom3").css('display',"none");
+        $(".question p").css("color","#000000");
+         $(".email p").css("color","#FFFFFF");
+          $(".feedback p").css("color","#FFFFFF");
+    });
+     });
+     $(document).ready(function(){
+       $(".email").click(function(){
+        $(".bottom1").css('display',"none");
+        $(".bottom2").css('display',"block");
+        $(".bottom3").css('display',"none");
+         $(".question p").css("color","#FFFFFF");
+         $(".email p").css("color","#000000");
+          $(".feedback p").css("color","#FFFFFF");
+    });  
+    });
+      $(document).ready(function(){
+       $(".feedback").click(function(){
+        $(".bottom1").css('display',"none");
+        $(".bottom2").css('display',"none");
+        $(".bottom3").css('display',"block");
+        $(".question p").css("color","#FFFFFF");
+         $(".email p").css("color","#FFFFFF");
+          $(".feedback p").css("color","#000000");
+    });  
+    });
+  </script>
+  </head>
+  
+  <body>
+       <div class="all">
+      <div class="title">
+        <p>帮助与反馈</p>
+      </div>
+      <div class="title_bottom">
+      </div>   
+      <div class="content">
+      <div class="first">
+           <div class="first_img"> 
+           <img alt="" src="../../../Home/Public/images/panda01.png"/>
+           </div>
+           <div class="question">
+             <p>常见问题</p>
+             </div>  
+      </div>
+      <div class="second">
+           <div class="second_img"> 
+           <img alt="" src="../../../Home/Public/images/panda02.png"/>
+           </div>
+           <div class="email">
+           <p>院长信箱</p>
+           </div>
+      </div>
+      <div class="thrid">
+           <div class="thrid_img"> 
+           <img alt="" src="../../../Home/Public/images/panda03.png"/>
+           </div>
+           <div class="feedback">
+              <p>我的反馈</p>
+           </div>
+         </div>
+         <div class="clear"></div>
+      </div>
+
+      <div class="bottom1">
+         <p>当前没有反馈记录1</p>
+      </div>
+      <div class="bottom2" style="display: none">
+         <p>当前没有反馈记录2</p>
+      </div>
+      <div class="bottom3" style="display: none">
+         <p>当前没有反馈记录</p>
+      </div>
+  </body>
+</html>

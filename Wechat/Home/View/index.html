@@ -2,172 +2,264 @@
 <html>
 <head>
 	<title>TMOV女子学院</title>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0,user-scalable=0"/>
 
 	<link rel="stylesheet" type="text/css" href="../Public/css/weui.min.css"/>
 	<link rel="stylesheet" type="text/css" href="../Public/css/jquery-weui.min.css"/>
-	<link rel="stylesheet" type="text/css" href="../Public/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../../Home/Public/dist/css/style.css"/>
 	
 	<script src="../Public/js/jquery-2.1.4.js"></script> 
 	<script src="../Public/js/jquery-weui.min.js"></script>
 
 
+
 	<style type="text/css">
 		
-		.top{width: 100%;height: 20%;background: #FFB90F;position: absolute;}
-		.top .read-day,.read-sec,.read-num{color: #ffffff;margin-left: 21%;display: inline;}
-
-		.tip .tip-day,.tip-sec,.tip-num{display: inline;color: #ffffff;font-size: 14px;}
-		.tip .tip-day{margin-left: 11%;}
-		.tip .tip-sec{margin-left: 6%;}
-		.tip .tip-num{margin-left: 5%;}
-
-		.read-day,.read-num{font-size: 16px;}
-		.read-sec{font-size: 24px;}
-
-		.mail{
-			height: 50px;
-			width: 50%;
-			margin-left: 25%;
-			margin-top: 10px;
-			border-radius: 20px;
-			background: #ffffff;
-		}
-		.mail img{
-			width: 20px;height: 20px;
-			margin-top: 15px;
-		}
-
-		.mail .mail-img{
-			margin-left: 10px;
-		}
-
-		.mail a span{
-			color: #000000;
-			font-size: 15px;
-		}
-
-
-		.content{
-			width: 100%;height: 190px;
-			position: absolute;
-			margin-top: 150px;
-			background: #ffffff;
-		}
-		
-		.top-mess small{
-			padding-top: 5px;margin-left: 20px;color: #D3D3D3;
-		}
-
-
-		.introduct{
-			width: 100%;height: 150px;
-			/*background: #D8BFD8;*/
-		}
-		.introduct div{float: left;}
-		.introduct img{margin-top: 20px;margin-left: 20px;margin-bottom: 10px;width: 85px;height: 110px;}
-		.introduct h3{margin-top: 20px;font-size: 15px;}
-
-		.intro-info{margin-left: 20px;}
-		.intro-info small{color: #CDC9C9;font-size: 10px;}
-
-		.intro-info .sign{width: 50px;border:1px solid #D3D3D3;border-radius: 10px;text-align: center;color: #D3D3D3;font-size: 11px;}
-
-		.intro-info .tip-witchday{margin-top: 20px;}
-		.intro-info .tip-witchday .today{font-size: 16px;color: #FFB90F;}
-		.intro-info .tip-witchday .btn-small{margin-left: 70px;}
-
+		body{
+         margin:0; 
+         padding:0;
+         background-color:#F3F3F3;
+       }
+       .all{
+          width: 100%;
+          height: 25rem;
+       }
+       .header{
+        width:100%;
+        height:6rem;
+        background-color:#FF9A32;
+       }
+      .first{
+        width: 33%;
+      }
+      .second{
+        width: 33%;
+      }
+      .thrid{
+         width: 33%;
+      }
+      .first p{
+        font-size:1em;
+        color:#FFF;
+        text-align:center;
+      }
+      .second p{
+        font-size:1em;
+        color:#FFF;
+        text-align:center;
+      }
+      .thrid p{
+        font-size:1em;
+        color:#FFF;
+        text-align:center;
+      }
+       .header_top{
+        display: flex;
+        display: -webkit-flex;
+        padding-top: 1rem;
+       }
+      .first_img{
+         text-align:center;
+       }
+       .second_img{
+         text-align:center;
+       }
+       .thrid_img{
+         text-align:center;
+       }
+        a{
+        	display: flex;
+        	display:-webkit-flex;
+        }
+        .email_img{
+        	width: 5em;
+        	height: 7em;
+        }
+        .circle p{
+            color: #B3B3B3;
+            margin-top: 1em;
+            font-size: 2em;
+        }
+       .arrow_img{
+       	width: 3em;
+       	height: 3em;
+       	margin-left: 8em;
+       	margin-top: 2.5em;
+       }
+       span{
+          width:0.3em;
+          height:0.8em;
+          background-color:#EFCD9A;
+          display:inline-block;
+          padding-top:1em;
+        }
+        .content{
+         background-color:#FFFFFF;
+         height:10rem;
+         width:100%;
+        }
+        .top p{
+          margin-top:0em;
+          font-size:1.5em;
+          color:#B3B3B3;
+          margin-left:0.5em;      
+        }
+        .top{
+           margin-left:1.0rem;
+           padding-top:4rem;
+           display:flex; 
+           display:-webkit-flex;
+           width: 13rem;
+        }
+        hr{
+          color:#EAEAEA;
+        }
+        .content_left{
+           width: 7rem;
+        }
+        .content_right{
+         padding-top:2.0em;
+         width: 15rem;
+        }
+        .content_right .read{
+           font-size:1.0rem;
+           width:75%;
+           margin-left: 1.5rem;
+        }
+        .star_bg{
+          margin-top:0.3rem;  
+        }
+        .count{
+          
+           margin-left: 1em;
+        }
+       .circle{  
+       height: 8em;  
+       width: 20em;  
+       border-radius: 11%;  
+       -webkit-transform: scale(1, 0.5);
+       background-color:#FFFFFF;
+       margin:-1rem auto;
+       border: 1px solid red;
+        } 
+       .image img{
+        margin:0rem auto;
+         }
+       .weui-tabbar{
+        margin-top:10rem;
+       }
+       .content_bottom{
+          display: flex;
+          display: -webkit-flex;
+          width: 100%;
+          height: 10rem;
+       }
+       .read_bottom{
+        display: flex;
+        display: -webkit-flex;
+        margin-left: 1rem;
+       }   
 	</style>
 
 </head>
 
-<body>
+<body> 
+      <div class="header">
+        <div class="header_top">
+          <div class="first">
+           <div class="first_img"> 
+            <p>6</p>
+           </div>
+           <p>坚持阅读/天</p>
+         </div>
+          <div class="second">
+           <div class="second_img"> 
+           <p>46</p>
+           </div>
+           <p>学习时长/分钟</p>
+         </div>
+          <div class="thrid">
+           <div class="thrid_img"> 
+           <p>1</p>
+           </div>
+           <p>已读书籍</p>
+         </div>
+        </div>
 
-	<div class="top">
-		<div style="height: 20px;"></div>
-		<div style="height: 30px;">
-			<p class="read-day">0</p>
-			<p class="read-sec">0</p>
-			<p class="read-num">0</p>
-		</div>
-		<div style="height: 2px;"></div>
-		<div class="tip" style="height: 30px;">
-			<p class="tip-day">坚持阅读/天</p>
-			<p class="tip-sec">学习时长/分</p>
-			<p class="tip-num">已读书籍/本</p>
-		</div>
+         <div class="circle">
+         <a href="">
+         	 <img src="../Public/images/email.png" alt="" class="email_img">
+         	 <p>邮箱</p>
+             <img src="../Public/images/arrow.png" alt="" class="arrow_img">
+         </a>
+         </div>
+      </div>
 
-		<div class="mail">
-			<a href="email/index.html">
-				<img class="mail-img" src="../Public/images/youxiang.png"/>
-				<span>邮件</span>
-				<img class="arrow-img" src="../Public/images/jiantou.png"/>
-			</a>
-		</div>
-	</div>
+      <div class="content">
+      <div class="top">
+          <span></span>
+         <p>十个月提升自己计划</p>
+      </div>
+      <hr>
+      <div class="content_bottom">
+      <div class="content_left">
+       <img alt="" src="../Public/images/book.png">
+       </div>
+        <div class="content_right">
+          <p class="read">《精力管理》精读</p>
+          <div class="read_bottom">
+           <p class="count">难度系数：</p>
+      <div id="starBg" class="star_bg">                     
+      <input type="radio" id="starScore1" class="score score_1" value="1" name="score">
+      <a href="#starScore1" class="star star_1" title="差"><label for="starScore1">差</label></a>
+      <input type="radio" id="starScore2" class="score score_2" value="2" name="score">
+      <a href="#starScore2" class="star star_2" title="较差"><label for="starScore2">较差</label></a>
+      <input type="radio" id="starScore3" class="score score_3" value="3" name="score">
+      <a href="#starScore3" class="star star_3" title="普通"><label for="starScore3">普通</label></a>
+      <input type="radio" id="starScore4" class="score score_4" value="4" name="score">
+      <a href="#starScore4" class="star star_4" title="较好"><label for="starScore4">较好</label></a>
+      <input type="radio" id="starScore5" class="score score_5" value="5" name="score">
+      <a href="#5" class="star star_5" title="好"><label for="starScore5">好</label></a>
+        </div>
+          </div>
+           <div class="image">
+          <a href="../View/today/todaythree.html"><img alt="" src="../Public/images/startbtn.png"></a>
+          </div>
+     </div>
+      </div>
 
-
-	<div class="content">
-		<div class="top-mess">
-			<small>十个月提升自己计划</small>
-		</div>
-
-		<div style="height: 1px;background: #F2F2F2;margin-left: 10px;margin-right: 10px;margin-top: 8px"></div>
-
-		<div class="introduct">
-			<div class="pic"><img src="../Public/images/ban1.jpg"/></div>
-			<div class="intro-info">
-				<h3></h3>
-				<small class="star"></small>
-				<p class="sign">未签到</p>
-				<p class="tip-witchday">
-					<small class="today">1</small>
-					<small class="totalday">/5天</small>
-					<a class="btn btn-read btn-small" href="">点击阅读</a>
-				</p>
-			</div>
-			
-		</div>
-	</div>		
-
-
-
-
-	
 	<!--底部导航-->
 	<div class="weui-tabbar">
 		<a href="#" class="weui-tabbar__item weui-bar__item--on">
 		    <div class="weui-tabbar__icon foot-menu-home"></div>
 		    <p class="weui-tabbar__label">今日</p>
 		</a>
-		<a href="educate/educate.html" class="weui-tabbar__item">
+		<a href="teach/teachone.html" class="weui-tabbar__item">
 		    <div class="weui-tabbar__icon foot-menu-list"></div>
 		    <p class="weui-tabbar__label">教务</p>
 		</a>
-		<a href="my/my.html" class="weui-tabbar__item">
+		<a href="owner/ownerone.html" class="weui-tabbar__item">
 		    <div class="weui-tabbar__icon foot-menu-cart"></div>
 		    <p class="weui-tabbar__label">我的</p>
 		</a>
 	</div>
-
 </body>
 </html>
 
 
-
 <script type="text/javascript">
 
+/*
 	$.ajax({
-
-		type:'post',
-	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getUserInfo',
-	 	dataType:'json',
+        //请求类型
+		type:'POST',
+	 	url:'http://mlyh.ngrok.cc/book/1/index.php/Admin/Api/getUserInfo',
+	 	async:true,    //或false,是否异步
 	 	data:{
 	 		'weixinid':'oC_AjuGs-Zk1dXSXIp-XWrXZZQYE'
 	 	},
 	 	success:function(data){
-
 	 		var status = data['status'];
 
 	 		if (status == '0') {
@@ -178,10 +270,13 @@
 	 				var readday = result[0]['readday'];
 	 				var readtime = result[0]['readtime'];
 	 				var readnum = result[0]['readnum'];
+
+	 				$.toast('444');
 	 				$('.read-day').text(readday);
 	 				$('.read-sec').text(readtime);
 	 				$('.read-num').text(readnum);
 	 			}
+	 			
 
 	 		} else {
 				
@@ -189,13 +284,13 @@
 	 	},
 	 	error:function(error){
 
-	 		$.toast("请求失败","text");
+	 		//$.toast("请求数据失败","text");
 	 	}
 	});
+*/
 
 
-
-	$.ajax({
+	/*$.ajax({
 
 		type:'post',
 	 	url:'http://mlyh.ngrok.cc/MlyBook/index.php/Admin/Api/getWeekBookInfo',
@@ -217,6 +312,7 @@
 	 				var degree = result[0]['degree'];
 	 				var pic = result[0]['pic'];
 
+
 	 				var picUrl = 'http://mlyh.ngrok.cc/MlyBook/';
 
 	 				$('.intro-info h3').text(title);
@@ -231,8 +327,8 @@
 	 	},
 	 	error:function(error){
 
-	 		$.toast("请求失败","text");
+	 		$.toast("请求数据失败","text");
 	 	}
 	});
-
+*/
 </script>
